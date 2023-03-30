@@ -60,7 +60,7 @@ for event in longpool.listen():
                                       '-Программирование на Scratch')
 
                 elif msg == spisok_func[0]:
-                    send_some_msg(id_p, 'Вот наш Номер телефона, по которому вы можете нам звонить: +7 (991) 465-11-55')
+                    send_some_msg(id_p, 'Вот наш номер телефона, по которому вы можете нам звонить: +7 (991) 465-11-55')
 
 
 
@@ -83,24 +83,23 @@ for event in longpool.listen():
                                         '3.Цифровая гигиена и работа с большими данными, Основы алгоритмики. Пиктомир.\n'
                                         '4.Разработка VR/AR -приложений.\n'
                                         '5.Программирование на Python')
+                # 1 фото
                 elif proverka_photo and msg == '1':
-
                     vstavkaphoto(id_p, 'img_5.png')
-                    # safdsafasf
+                # 2 фото
                 elif proverka_photo and msg == '2':
-
                     vstavkaphoto(id_p, 'img_6.png')
-                    # safdsafasf
+                # 3 фото
                 elif proverka_photo and msg == '3':
                     vstavkaphoto(id_p, 'img_7.png')
-
-                    # safdsafasf
+                # 4 фото
                 elif proverka_photo and msg == '4':
                     vstavkaphoto(id_p, 'img_8.png')
-
+                # 5 фото
                 elif proverka_photo and msg == '5':
                     vstavkaphoto(id_p, 'img_9.png')
 
+                    # 4 фото
 
                 elif msg == spisok_func[4]:
                     send_some_msg(id_p,
@@ -134,7 +133,7 @@ for event in longpool.listen():
 
                 elif proverka_chisel and msg == '1':
 
-                    send_some_msg(id_p, 'Вот наш Номер телефона, по которому вы можете нам звонить: +7 (991) 465-11-55')
+                    send_some_msg(id_p, 'Вот наш номер телефона, по которому вы можете нам звонить: +7 (991) 465-11-55')
 
                 elif proverka_chisel and msg == '2':
 
@@ -168,17 +167,16 @@ for event in longpool.listen():
 
                 elif proverka_photo and msg == '1':
                     vstavkaphoto(id_p, 'img_5.png')
-                    # safdsafasf
+
                 elif proverka_photo and msg == '2':
                     vstavkaphoto(id_p, 'img_6.png')
-                    # safdsafasf
+
                 elif proverka_photo and msg == '3':
                     vstavkaphoto(id_p, 'img_7.png')
 
-                    # safdsafasf
                 elif proverka_photo and msg == '4':
                     vstavkaphoto(id_p, 'img_8.png')
-                    # sadsafsa
+
                 elif proverka_photo and msg == '5':
                     vstavkaphoto(id_p, 'img_9.png')
 
